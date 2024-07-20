@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  position: absolute;
+  top: 17%;
+  height: 30em;
+  width: 20em;
+  background-color: palevioletred;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  filter: drop-shadow(4px 4px 6px black);
+}
+.card img {
+  border-radius: 10px;
+  margin: auto;
+  width: 99%;
+}
+.card h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 550;
+  color: rgb(0, 36, 56);
+}
+.card h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: red;
+  filter: drop-shadow(2px 2px 1px rgb(255, 255, 255));
+  margin-bottom: 70px;
+}
+.card button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgb(16, 147, 170);
+  color: rgb(235, 222, 226);
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 5px rgb(0, 54, 83));
+}
+
+.card .removeFriend {
+  background-color: silver;
+}
